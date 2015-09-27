@@ -1,0 +1,19 @@
+{
+  "name"         : "canvas-sequencer",
+  "version"      : "0.0.0",
+  "description"  : "HTML5 Canvas Sequencer",
+  "main"         : "server.js",
+  "author"       : "Elad Gariany",
+  "license"      : "MIT",
+  "private"      : true,
+  "repository"   : {
+                     "type": "git",
+                     "url": "git://github.com/eladg/canvas-sequencer.git"
+  },
+  "dependencies" : {
+    "express"    : "~4.13.3",
+    "morgan"     : "~1.6.1",
+    "body-parser": "~1.14.0",
+    "method-override": "~2.1.2"
+  }
+}
